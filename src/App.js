@@ -3,6 +3,7 @@ import windowslogo from './assets/img/logos/windows.png';
 import maclogo from './assets/img/logos/mac-os-logo.png';
 import xboxlogo from './assets/img/logos/xbox-logo.png';
 import game_logo from './assets/img/Title_logo.png';
+import gdad_logo from './assets/img/GDAD.png';
 
 //gifs
 import peck from './assets/img/peck.gif';
@@ -86,6 +87,7 @@ function App() {
               <div class="text-center">
                   <h2 class="section-heading text-uppercase">Play</h2>
                   <h3 class="section-subheading text-muted">Play in brower with Unity Web Player</h3>
+                  <iframe width="840" height="475" src={'https://www.youtube.com/embed/UtccWRpLmiE'} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
           </div>
         </section>
@@ -97,28 +99,34 @@ function App() {
                     <h2 class="section-heading text-uppercase">About</h2>
                     
                     {/* High Concept */}
-                    <h4 class="section-heading text-uppercase">High Concept</h4>
-                    <p class="section-heading text-muted">The Emperor decrees the need for a 13th divine animal to be added as a Zodiac. You play as Corvus, a blackbird who decides to shoot their shot for the title. However, you first must gain the original 12 Zodiac animals' approval by solving each of their unique puzzles and earning stars to form your constellation. With the help of your wind powers, make your way through the cloudy realm of the gods in order to ascend to divinity!<b></b></p>
+                    <h4 class="section-heading text-uppercase py-5">High Concept</h4>
+                    <p class="section-heading text-muted me-5 ms-5 ">The Emperor decrees the need for a 13th divine animal to be added as a Zodiac. You play as Corvus, a blackbird who decides to shoot their shot for the title. However, you first must gain the original 12 Zodiac animals' approval by solving each of their unique puzzles and earning stars to form your constellation. With the help of your wind powers, make your way through the cloudy realm of the gods in order to ascend to divinity!<b></b></p>
                     
+
+                    {/* Our Process */}
+                    <h4 class="section-heading text-uppercase py-5">The Process</h4>
+                    <p class="section-heading text-muted me-5 ms-5 ">This game was created over the course of a college semester</p>
+                    
+
                     {/* Trailer */}
-                    <h4 class="section-heading text-uppercase">Game Trailer</h4>
+                    <h4 class="section-heading text-uppercase py-5">Game Trailer</h4>
 
                     {/* Mechanics */}
-                    <h4 class="section-heading text-uppercase">Mechanics</h4>
-                    <div class="row text-center text-muted">
-                        <div class="col-sm">
+                    <h4 class="section-heading text-uppercase mt-5">Mechanics</h4>
+                    <div class="row text-center text-muted my-5">
+                        <div class="col-sm ms-5">  
+                            <img class="my-3" src={peck} alt="Peck gif" height="240"/>
                             <h5>Peck</h5>
-                            <img src={peck} alt="Peck gif" height="240"/>
                             <p>The peck ability allows the player to move boxes and interact with other objects and NPCs.</p>
                         </div>
                         <div class="col-sm">
+                            <img class="my-3" src={tornado} alt="Tornado gif" height="240"/>
                             <h5 class="text-muted ">Tornado</h5>
-                            <img src={tornado} alt="Tornado gif" height="240"/>
                             <p>The player can shoot out a gust of wind which creates a tornado. The player and boxes can also float on this tornado.</p>
                         </div>
-                        <div class="col-sm">
+                        <div class="col-sm me-5"> 
+                            <img class="my-3" src={camera} alt="Camera gif" height="240"/>
                             <h5 class="text-muted">Camera</h5>
-                            <img src={camera} alt="Camera gif" height="240"/>
                             <p>The player can shift camera in 90 degree increments to view puzzles at different angles.</p>
                         </div>
                     </div>
@@ -126,90 +134,34 @@ function App() {
                     {/* Dynamics */}
                     <h4 class="section-heading text-uppercase">Dynamics</h4>
                     <div class="container">
-                        <div class="row text-center text-muted">
+                        <div class="row text-center text-muted my-5">
                             <div class="col-md-4">
                                 <h5>Mechanic Combination</h5>
-                                <img src={mech_combo} alt="mechanic combination gif" height="240"/>
+                                <img class="my-3" src={mech_combo} alt="mechanic combination gif" height="240"/>
                                 <p>The player can combine the tornado and peck to solve different puzzles.</p>
                             </div>
                             <div class="col-md-4">
                                 <h5 class="text-muted ">Tornado</h5>
-                                <img src={tornado} alt="Tornado gif" height="240"/>
+                                <img class="my-3" src={tornado} alt="Tornado gif" height="240"/>
                                 <p>The player can shoot out a gust of wind which creates a tornado. The player and boxes can also float on this tornado.</p>
                             </div>
                             <div class="col-md-4">
                                 <h5 class="text-muted">Camera</h5>
-                                <img src={camera} alt="Camera gif" height="240"/>
+                                <img class="my-3"src={camera} alt="Camera gif" height="240"/>
                                 <p>The player can shift camera in 90 degree increments to view puzzles at different angles.</p>
                             </div>
                         </div>
                     </div>
-                    
-                    
                     <h4 class="section-heading text-uppercase">Aesthetic</h4>
               </div>
-              
-              {/* <ul class="timeline">
-                  <li>
-                      <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                      <div class="timeline-panel">
-                          <div class="timeline-heading">
-                              <h4>2009-2011</h4>
-                              <h4 class="subheading">Our Humble Beginnings</h4>
-                          </div>
-                          <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                      </div>
-                  </li>
-                  <li class="timeline-inverted">
-                      <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                      <div class="timeline-panel">
-                          <div class="timeline-heading">
-                              <h4>March 2011</h4>
-                              <h4 class="subheading">An Agency is Born</h4>
-                          </div>
-                          <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                      </div>
-                  </li>
-                  <li>
-                      <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                      <div class="timeline-panel">
-                          <div class="timeline-heading">
-                              <h4>December 2015</h4>
-                              <h4 class="subheading">Transition to Full Service</h4>
-                          </div>
-                          <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                      </div>
-                  </li>
-                  <li class="timeline-inverted">
-                      <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                      <div class="timeline-panel">
-                          <div class="timeline-heading">
-                              <h4>July 2020</h4>
-                              <h4 class="subheading">Phase Two Expansion</h4>
-                          </div>
-                          <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                      </div>
-                  </li>
-                  <li class="timeline-inverted">
-                      <div class="timeline-image">
-                          <h4>
-                              Be Part
-                              <br />
-                              Of Our
-                              <br />
-                              Story!
-                          </h4>
-                      </div>
-                  </li>
-              </ul> */}
           </div>
       </section>
       
       <section class="page-section bg-light" id="team">
           <div class="container">
               <div class="text-center">
-                  <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  <h2 class="section-heading text-uppercase">The Team</h2>
+                  <h3 class="section-subheading text-muted">Our team at the 3D Game Development Capstone</h3>
               </div>
 
               {/* row 1 */}
@@ -314,35 +266,15 @@ function App() {
           </div>
       </section>
       
-      <div class="py-5">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." /></a>
-                  </div>
-                  <div class="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." /></a>
-                  </div>
-                  <div class="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
-                  </div>
-                  <div class="col-md-3 col-sm-6 my-3">
-                      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
-                  </div>
-              </div>
-          </div>
-      </div>
-     
+      
       
      
-      <footer class="footer py-4">
+      <footer class="footer py-5">
           <div class="container">
               <div class="row align-items-center">
-                  <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                  <div class="col-lg-4 text-lg-start">Year of The Raven 2022</div>
                   <div class="col-lg-4 my-3 my-lg-0">
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src={gdad_logo} alt="Gdad Logo" /></a> 
                   </div>
                   <div class="col-lg-4 text-lg-end">
                       <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
