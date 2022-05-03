@@ -5,6 +5,7 @@ import xboxlogo from './assets/img/logos/xbox-logo.png';
 import game_logo from './assets/img/Title_logo.png';
 import gdad_logo from './assets/img/GDAD.png';
 import team from './assets/img/team/sample_team.png';
+import env from './assets/img/enviro.png';
 
 //team
 import zane from './assets/img/team/zane.jpg';
@@ -86,11 +87,11 @@ function App() {
           </div>
       </section>
 
-      <section class="page-section bg-light" id="portfolio">
+      <section class="page-section custom-body" id="portfolio">
           <div class="container">
               <div class="text-center">
-                  <h2 class="section-heading text-uppercase">Trailer</h2>
-                  <h3 class="section-subheading text-muted">Play in brower with Unity Web Player</h3>
+                  <h2 class="section-heading text-uppercase white-text">Trailer</h2>
+                  <h3 class="section-subheading white-text">Play in brower with Unity Web Player</h3>
                   <iframe width="840" height="475" src={'https://www.youtube.com/embed/UtccWRpLmiE'} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
           </div>
@@ -153,19 +154,22 @@ function App() {
                         </div>
                     </div>
                     <h4 class="section-heading text-uppercase">Aesthetic</h4>
+                    {/* <img class="my-3" src={env} alt="environment" height="800"/> */}
               </div>
           </div>
       </section>
       
-      <section class="page-section bg-light" id="team">
-          <div class="container">
-              <div class="text-center">
+      <section class="page-section custom-body" id="team">
+          <div class="container ">
+              <div class="text-center white-text">
                   <h2 class="section-heading text-uppercase">The Team</h2>
-                  <h3 class="section-subheading text-muted">Our team at the 3D Game Development Capstone</h3>
+                  <h3 class="section-subheading white-text">Our team at the 3D Game Development Capstone</h3>
               </div>
-
+            
+            <div class="container bg-light rounded-3">
+            
               {/* row 1 */}
-              <div class="row">
+              <div class="row pt-5">
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQG8iIMDOjNmdA/profile-displayphoto-shrink_800_800/0/1633382434321?e=1657152000&v=beta&t=cPnFBYyPvfsWSb_eG5ke0aVZUcmegh4ZkZA2VqvUP8Q'} alt="..." />
@@ -218,6 +222,7 @@ function App() {
                     </div>
                   </div>
                 </div>
+                
 
               {/* row 3 */}
               <div class = "row">
@@ -237,11 +242,15 @@ function App() {
                       <p class="text-muted">2D/3D Artist </p>
                   </div>
                 </div>
-              </div>
+            </div>
+            </div>
 
 
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                
+                <h4 class="section-heading text-uppercase py-5">Playtesters</h4>
+                <h4 class="section-heading text-uppercase py-5">Producer Coproducer</h4>
+                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
             </div>
           </div>
       </section>
