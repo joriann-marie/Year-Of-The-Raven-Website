@@ -4039,6 +4039,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4066,6 +4067,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-image: ;
 }
 .navbar-nav .nav-link {
   padding-right: 0;

@@ -4,12 +4,16 @@ import maclogo from './assets/img/logos/mac-os-logo.png';
 import xboxlogo from './assets/img/logos/xbox-logo.png';
 import game_logo from './assets/img/Title_logo.png';
 import gdad_logo from './assets/img/GDAD.png';
+import team from './assets/img/team/sample_team.png';
+
+//team
+import zane from './assets/img/team/zane.jpg';
 
 //gifs
 import peck from './assets/img/peck.gif';
 import tornado from './assets/img/tornado.gif';
 import camera from './assets/img/camera.gif';
-import mech_combo from './/assets/img/mech-combo.gif'
+import mech_combo from './assets/img/mech-combo.gif'
 
 
 //download files
@@ -85,7 +89,7 @@ function App() {
       <section class="page-section bg-light" id="portfolio">
           <div class="container">
               <div class="text-center">
-                  <h2 class="section-heading text-uppercase">Play</h2>
+                  <h2 class="section-heading text-uppercase">Trailer</h2>
                   <h3 class="section-subheading text-muted">Play in brower with Unity Web Player</h3>
                   <iframe width="840" height="475" src={'https://www.youtube.com/embed/UtccWRpLmiE'} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
@@ -106,10 +110,6 @@ function App() {
                     {/* Our Process */}
                     <h4 class="section-heading text-uppercase py-5">The Process</h4>
                     <p class="section-heading text-muted me-5 ms-5 ">This game was created over the course of a college semester</p>
-                    
-
-                    {/* Trailer */}
-                    <h4 class="section-heading text-uppercase py-5">Game Trailer</h4>
 
                     {/* Mechanics */}
                     <h4 class="section-heading text-uppercase mt-5">Mechanics</h4>
@@ -168,32 +168,26 @@ function App() {
               <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQG8iIMDOjNmdA/profile-displayphoto-shrink_800_800/0/1633382434321?e=1657152000&v=beta&t=cPnFBYyPvfsWSb_eG5ke0aVZUcmegh4ZkZA2VqvUP8Q'} alt="..." />
                         <h4>Matthew Zhang</h4>
                         <p class="text-muted">Designer <br></br>Programmer <br></br> Sound Designer </p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        {/* <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> */}
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src={zane} alt="..." />
                         <h4>Zane Stewart</h4>
                         <p class="text-muted">Designer <br></br> Scrum Master</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 ">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQEatlzeILh-eA/profile-displayphoto-shrink_800_800/0/1649872217588?e=1657152000&v=beta&t=pAyC5O9t44lsH__V6PXeBHHzil_j_nmRlIl-WKlWINI'} alt="..." />
                         <h4>Soo Jung Aguilar</h4>
                         <p class="text-muted">Art Director <br></br> 2D Artist </p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                   </div>
               </div>
@@ -202,34 +196,25 @@ function App() {
               <div class="row">
                   <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C5603AQGizzBmBzYzhQ/profile-displayphoto-shrink_800_800/0/1647020319226?e=1657152000&v=beta&t=n8pNILmL_trQ_GclfPecQw584hT4no2btV49Wwn_q6s'} alt="..." />
                         <h4>Joriann Bassi</h4>
                         <p class="text-muted">Programmer <br></br> Sound Designer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQFm9m_g1U-bQw/profile-displayphoto-shrink_800_800/0/1646280722639?e=1657152000&v=beta&t=E6W2No6f5vBf00E9wkkH131c8txQNGke4XiI8xJkNAg'} alt="..." />
                         <h4>Faith Fuller</h4>
                         <p class="text-muted">3D Artist </p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     </div>
 
                   <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C5603AQGsEtMVAw-enA/profile-displayphoto-shrink_800_800/0/1631307680740?e=1657152000&v=beta&t=rFdLXtA2swUKb737VzcolVaNJKPrPMtgU9PFngN4DfQ'} alt="..." />
                         <h4>Aayush Gupta</h4>
                         <p class="text-muted">Designer </p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                   </div>
                 </div>
@@ -238,23 +223,18 @@ function App() {
               <div class = "row">
                 <div class="col-lg-4">
                   <div class="team-member">
-                      <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                      <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQHUgY5omNnZyQ/profile-displayphoto-shrink_800_800/0/1580016367855?e=1657152000&v=beta&t=xQ4RnVzvEFQqTeqg-DEWscK9RWoz2r5EloC-iOjOcoQ'} alt="..." />
                       <h4>Jiaxin Huang</h4>
                       <p class="text-muted">Programmer <br></br>Designer </p>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+
                   </div>
                 </div>
 
                 <div class="col-lg-4">
                   <div class="team-member">
-                      <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                      <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C5603AQGbmxpD_17GiQ/profile-displayphoto-shrink_800_800/0/1636143212461?e=1657152000&v=beta&t=vAzcR54XPkpVYL1PaUvRhSeIy8H5bmk3jIsrXFhOVvU'} alt="..." />
                       <h4>Clinton Thai</h4>
                       <p class="text-muted">2D/3D Artist </p>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                      <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                   </div>
                 </div>
               </div>
