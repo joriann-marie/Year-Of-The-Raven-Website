@@ -4,8 +4,7 @@ import maclogo from './assets/img/logos/mac-os-logo.png';
 import xboxlogo from './assets/img/logos/xbox-logo.png';
 import game_logo from './assets/img/Title_logo.png';
 import gdad_logo from './assets/img/GDAD.png';
-import team from './assets/img/team/sample_team.png';
-import env from './assets/img/enviro.png';
+import itch from './assets/img/logos/itch.svg';
 
 //team
 import zane from './assets/img/team/zane.jpg';
@@ -15,12 +14,15 @@ import peck from './assets/img/peck.gif';
 import tornado from './assets/img/tornado.gif';
 import camera from './assets/img/camera.gif';
 import mech_combo from './assets/img/mech-combo.gif'
+import pick_and_choose from './assets/img/pick-and-choose.gif';
+import trial_and_error from './assets/img/trial-and-error.gif';
 
 
 //download files
 import windows_dl from './assets/downloads/windows-build.zip';
 import mac_dl from './assets/downloads/mac-build.zip';
 import xbox_dl from './assets/downloads/xbox-build.zip';
+import game_dev_guide from './assets/downloads/Team 4_GDG_Year of the Raven.pdf'
 
 
 import './App.css';
@@ -49,7 +51,7 @@ function App() {
       
       <header class="masthead">
           <div class="container">
-              <img class="center"src={game_logo} alt="logo" width="1000"/>
+              <img class="center" id="page-top" src={game_logo} alt="logo" width="1000"/>
               <div class="masthead-subheading">Blackbird Studios</div>
 
           </div>
@@ -62,25 +64,32 @@ function App() {
                   <h3 class="section-subheading text-muted">Available on PC, Mac, Xbox and Browser</h3>
               </div>
               <div class="row text-center">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                       <h4 class="my-3">Windows</h4>
                       <p class="text-muted">Click for Windows 64-bit Download.</p>
                       <a href={windows_dl} download>
                         <img src={windowslogo} alt="PC Download" width="142" height="142"/>
                       </a>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                       <h4 class="my-3">Mac</h4>
                       <p class="text-muted">Click for Mac 64-bit download</p>
                       <a href={mac_dl} download>
                         <img src={maclogo} alt="Mac Download" width="142" height="142"/>
                       </a>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                       <h4 class="my-3">Xbox</h4>
                       <p class="text-muted">Click for Xbox Download.</p>
                       <a href={xbox_dl} download>
                         <img src={xboxlogo} alt="Xbox Download" width="142" height="142"/>
+                      </a>
+                  </div>
+                  <div class="col-md-3">
+                      <h4 class="my-3">Itch.io</h4>
+                      <p class="text-muted">Click to play on Itch.io</p>
+                      <a href={'https://jiaxinhuang.itch.io/year-of-the-raven'}>
+                        <img src={itch} alt="Itch play" width="142" height="142"/>
                       </a>
                   </div>
               </div>
@@ -104,17 +113,19 @@ function App() {
                     <h2 class="section-heading text-uppercase">About</h2>
                     
                     {/* High Concept */}
-                    <h4 class="section-heading text-uppercase py-5">High Concept</h4>
+                    <h4 class="section-heading text-uppercase pt-5">Story</h4>
                     <p class="section-heading text-muted me-5 ms-5 ">The Emperor decrees the need for a 13th divine animal to be added as a Zodiac. You play as Corvus, a blackbird who decides to shoot their shot for the title. However, you first must gain the original 12 Zodiac animals' approval by solving each of their unique puzzles and earning stars to form your constellation. With the help of your wind powers, make your way through the cloudy realm of the gods in order to ascend to divinity!<b></b></p>
                     
 
                     {/* Our Process */}
-                    <h4 class="section-heading text-uppercase py-5">The Process</h4>
-                    <p class="section-heading text-muted me-5 ms-5 ">This game was created over the course of a college semester</p>
+                    <h4 class="section-heading text-uppercase pt-5">The Process</h4>
+                    <p class="section-heading text-muted me-5 ms-5 mb-5 ">This game was created over the course of a college semester, in 12 week long sprints. It was produced in Unity 3D. 
+                    <br></br>To learn more about our process, check out our Game Development Guide below.</p>
+                    <a class="btn btn-primary btn-xl text-uppercase" href={game_dev_guide}>Game Development Guide</a>
 
                     {/* Mechanics */}
-                    <h4 class="section-heading text-uppercase mt-5">Mechanics</h4>
-                    <div class="row text-center text-muted my-5">
+                    <h4 class="section-heading text-uppercase mt-5 pt-5">Mechanics</h4>
+                    <div class="row text-center text-muted mb-5">
                         <div class="col-sm ms-5">  
                             <img class="my-3" src={peck} alt="Peck gif" height="240"/>
                             <h5>Peck</h5>
@@ -133,28 +144,30 @@ function App() {
                     </div>
 
                     {/* Dynamics */}
-                    <h4 class="section-heading text-uppercase">Dynamics</h4>
+                    <h4 class="section-heading text-uppercase mt-5 pt-5">Dynamics</h4>
                     <div class="container">
-                        <div class="row text-center text-muted my-5">
-                            <div class="col-md-4">
-                                <h5>Mechanic Combination</h5>
+                        <div class="row text-center text-muted mb-5">
+                            <div class="col-sm ms-5">
                                 <img class="my-3" src={mech_combo} alt="mechanic combination gif" height="240"/>
+                                <h5>Mechanic Combination</h5>
                                 <p>The player can combine the tornado and peck to solve different puzzles.</p>
                             </div>
-                            <div class="col-md-4">
-                                <h5 class="text-muted ">Tornado</h5>
-                                <img class="my-3" src={tornado} alt="Tornado gif" height="240"/>
-                                <p>The player can shoot out a gust of wind which creates a tornado. The player and boxes can also float on this tornado.</p>
+                            <div class="col-sm">
+                                <img class="my-3" src={pick_and_choose} alt="Tornado gif" height="240" width="360"/>
+                                <h5 class="text-muted ">Pick and Choose</h5>
+                                <p>Try any number of times to finish the puzzle, playing at your own pace.</p>
                             </div>
-                            <div class="col-md-4">
-                                <h5 class="text-muted">Camera</h5>
-                                <img class="my-3"src={camera} alt="Camera gif" height="240"/>
-                                <p>The player can shift camera in 90 degree increments to view puzzles at different angles.</p>
+                            <div class="col-sm me-5">
+                                <img class="my-3"src={trial_and_error} alt="Camera gif" height="240" />
+                                <h5 class="text-muted">Trial and Error</h5>
+                                <p>Puzzles on each island can be done in any order via returning to the island.</p>
                             </div>
                         </div>
                     </div>
-                    <h4 class="section-heading text-uppercase">Aesthetic</h4>
-                    {/* <img class="my-3" src={env} alt="environment" height="800"/> */}
+                    
+                    {/* Aeshtetic */}
+                    <h4 class="section-heading text-uppercase pt-5 mt-5">Aesthetic</h4>
+                    <p class="text-muted me-5 ms-5">The world supports a chill and relaxing aesthetic with cloudy backgrounds and art that has a particular Eastern-style look with its characters and backgrounds. This aesthetic conveys a calm, play-at-your-own-pace feeling to the player</p>
               </div>
           </div>
       </section>
@@ -242,15 +255,11 @@ function App() {
                       <p class="text-muted">2D/3D Artist </p>
                   </div>
                 </div>
+            <h4 class="section-heading text-uppercase pt-5">Producer</h4>
+            <p class="text-muted">Paul Toprac</p>
+            <h4 class="section-heading text-uppercase pt-5">Co-Producer</h4>
+            <p class="text-muted pb-5">Audrey Stein</p>
             </div>
-            </div>
-
-
-            <div class="row">
-                
-                <h4 class="section-heading text-uppercase py-5">Playtesters</h4>
-                <h4 class="section-heading text-uppercase py-5">Producer Coproducer</h4>
-                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
             </div>
           </div>
       </section>
