@@ -128,17 +128,17 @@ function App() {
                     <h4 class="section-heading text-uppercase mt-5 pt-5">Mechanics</h4>
                     <div class="row text-center text-muted mb-5">
                         <div class="col-sm ms-5">  
-                            <img class="my-3" src={peck} alt="Peck gif" height="240"/>
+                            <img class="my-3 w-100" src={peck} alt="Peck gif"/>
                             <h5>Peck</h5>
                             <p>The peck ability allows the player to move boxes and interact with other objects and NPCs.</p>
                         </div>
                         <div class="col-sm">
-                            <img class="my-3" src={tornado} alt="Tornado gif" height="240"/>
+                            <img class="my-3 w-100" src={tornado} alt="Tornado gif"/>
                             <h5 class="text-muted ">Tornado</h5>
                             <p>The player can shoot out a gust of wind which creates a tornado. The player and boxes can also float on this tornado.</p>
                         </div>
                         <div class="col-sm me-5"> 
-                            <img class="my-3" src={camera} alt="Camera gif" height="240"/>
+                            <img class="my-3 w-100" src={camera} alt="Camera gif"/>
                             <h5 class="text-muted">Camera</h5>
                             <p>The player can shift camera in 90 degree increments to view puzzles at different angles.</p>
                         </div>
@@ -149,17 +149,17 @@ function App() {
                     <div class="container">
                         <div class="row text-center text-muted mb-5">
                             <div class="col-sm ms-5">
-                                <img class="my-3" src={mech_combo} alt="mechanic combination gif" height="240"/>
+                                <img class="my-3 w-100" src={mech_combo} alt="mechanic combination gif"/>
                                 <h5>Mechanic Combination</h5>
                                 <p>The player can combine the tornado and peck to solve different puzzles.</p>
                             </div>
                             <div class="col-sm">
-                                <img class="my-3" src={pick_and_choose} alt="Tornado gif" height="240" width="360"/>
+                                <img class="my-3 w-100" src={pick_and_choose} alt="Tornado gif " height="248"/>
                                 <h5 class="text-muted ">Pick and Choose</h5>
                                 <p>Try any number of times to finish the puzzle, playing at your own pace.</p>
                             </div>
                             <div class="col-sm me-5">
-                                <img class="my-3"src={trial_and_error} alt="Camera gif" height="240" />
+                                <img class="my-3 w-100"src={trial_and_error} alt="Camera gif"  />
                                 <h5 class="text-muted">Trial and Error</h5>
                                 <p>Puzzles on each island can be done in any order via returning to the island.</p>
                             </div>
