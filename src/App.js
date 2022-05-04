@@ -111,6 +111,7 @@ function App() {
           <div class="container">
               <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">All about the game and how we made it</h3>
                     
                     {/* High Concept */}
                     <h4 class="section-heading text-uppercase pt-5">Story</h4>
@@ -262,6 +263,7 @@ function App() {
             </div>
             </div>
           </div>
+          <div class="row py-5 my-5"></div>
       </section>
       
       
