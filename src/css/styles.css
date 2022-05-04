@@ -11420,7 +11420,6 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
@@ -11447,11 +11446,11 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;

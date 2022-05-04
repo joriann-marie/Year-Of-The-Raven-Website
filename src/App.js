@@ -50,11 +50,8 @@ function App() {
       </nav>
       
       <header class="masthead">
-          <div class="container">
-              <img class="center" id="page-top" src={game_logo} alt="logo" width="1000"/>
-              <div class="masthead-subheading">Blackbird Studios</div>
-
-          </div>
+            <img class="masthead-heading w-50" id="page-top" src={game_logo} alt="logo"/>
+            <div class="masthead-subheading">Blackbird Studios</div>
       </header>
       
       <section class="page-section" id="services">
