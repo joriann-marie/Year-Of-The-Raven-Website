@@ -154,7 +154,7 @@ function App() {
                                 <p>The player can combine the tornado and peck to solve different puzzles.</p>
                             </div>
                             <div class="col-sm">
-                                <img class="my-3 w-100" src={pick_and_choose} alt="Tornado gif " height="248"/>
+                                <img class="my-3 w-100" src={pick_and_choose} alt="Tornado gif "/>
                                 <h5 class="text-muted ">Pick and Choose</h5>
                                 <p>Try any number of times to finish the puzzle, playing at your own pace.</p>
                             </div>
