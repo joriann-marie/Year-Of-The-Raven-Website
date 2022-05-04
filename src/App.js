@@ -97,8 +97,8 @@ function App() {
           <div class="container">
               <div class="text-center">
                   <h2 class="section-heading text-uppercase white-text">Trailer</h2>
-                  <h3 class="section-subheading white-text">Play in brower with Unity Web Player</h3>
-                  <iframe width="840" height="475" src={'https://www.youtube.com/embed/UtccWRpLmiE'} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                  <h3 class="section-subheading white-text">See real game play</h3>
+                  <iframe width="840" height="475" src={'https://www.youtube.com/embed/wQpGLDhagCo'} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
           </div>
         </section>
@@ -185,7 +185,7 @@ function App() {
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQG8iIMDOjNmdA/profile-displayphoto-shrink_800_800/0/1633382434321?e=1657152000&v=beta&t=cPnFBYyPvfsWSb_eG5ke0aVZUcmegh4ZkZA2VqvUP8Q'} alt="..." />
                         <h4>Matthew Zhang</h4>
-                        <p class="text-muted">Designer <br></br>Programmer <br></br> Sound Designer </p>
+                        <p class="text-muted">Designer <br></br>Programmer <br></br> Composer </p>
                         {/* <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> */}
