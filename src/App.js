@@ -186,9 +186,6 @@ function App() {
                         <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C4E03AQG8iIMDOjNmdA/profile-displayphoto-shrink_800_800/0/1633382434321?e=1657152000&v=beta&t=cPnFBYyPvfsWSb_eG5ke0aVZUcmegh4ZkZA2VqvUP8Q'} alt="..." />
                         <h4>Matthew Zhang</h4>
                         <p class="text-muted">Designer <br></br>Programmer <br></br> Composer </p>
-                        {/* <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> */}
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -227,7 +224,7 @@ function App() {
 
                   <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src={'https://media-exp1.licdn.com/dms/image/C5603AQGsEtMVAw-enA/profile-displayphoto-shrink_800_800/0/1631307680740?e=1657152000&v=beta&t=rFdLXtA2swUKb737VzcolVaNJKPrPMtgU9PFngN4DfQ'} alt="..." />
+                        <img class="mx-auto rounded-circle" src={'https://cdn.discordapp.com/attachments/931938500306165872/971519281303027772/IMG_7242.JPG'} alt="..." />
                         <h4>Aayush Gupta</h4>
                         <p class="text-muted">Designer </p>
                     </div>
