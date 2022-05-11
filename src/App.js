@@ -8,6 +8,7 @@ import itch from './assets/img/logos/itch.svg';
 
 //team
 import zane from './assets/img/team/zane.jpg';
+import aayush from './assets/img/team/aayush.jpg';
 
 //gifs
 import peck from './assets/img/peck.gif';
@@ -22,7 +23,7 @@ import trial_and_error from './assets/img/trial-and-error.gif';
 import windows_dl from './assets/downloads/windows-build.zip';
 import mac_dl from './assets/downloads/mac-build.zip';
 import xbox_dl from './assets/downloads/xbox-build.zip';
-import game_dev_guide from './assets/downloads/Team 4_GDG_Year of the Raven.pdf'
+import game_dev_guide from './assets/downloads/Team_4_GDG_Year_of_the_Raven.pdf'
 
 
 import './App.css';
@@ -224,7 +225,7 @@ function App() {
 
                   <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src={'https://cdn.discordapp.com/attachments/931938500306165872/971519281303027772/IMG_7242.JPG'} alt="..." />
+                        <img class="mx-auto rounded-circle" src={aayush} alt="..." />
                         <h4>Aayush Gupta</h4>
                         <p class="text-muted">Designer </p>
                     </div>
