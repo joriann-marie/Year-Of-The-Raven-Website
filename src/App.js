@@ -19,11 +19,10 @@ import pick_and_choose from './assets/img/pick-and-choose.gif';
 import trial_and_error from './assets/img/trial-and-error.gif';
 
 
-//download files
-import windows_dl from './assets/downloads/windows-build.zip';
-import mac_dl from './assets/downloads/mac-build.zip';
-//'./assets/downloads/xbox-build.zip';
-import xbox_dl from './assets/downloads/windows-build.zip';
+//download files -> now using google drive but will leave here in case
+// import windows_dl from '';
+// import mac_dl from './assets/downloads/mac-build.zip';
+// import xbox_dl from './assets/downloads/windows-build.zip';
 import game_dev_guide from './assets/downloads/Team_4_GDG_Year_of_the_Raven.pdf'
 
 
@@ -66,21 +65,21 @@ function App() {
                   <div class="col-md-3">
                       <h4 class="my-3">Windows</h4>
                       <p class="text-muted">Click for Windows 64-bit Download.</p>
-                      <a href={windows_dl} download>
+                      <a href={'https://drive.google.com/uc?export=download&id=11wsR1LKaqvJFK9zWeaPQ0TGZCFm5X_jv'} download>
                         <img src={windowslogo} alt="PC Download" width="142" height="142"/>
                       </a>
                   </div>
                   <div class="col-md-3">
                       <h4 class="my-3">Mac</h4>
                       <p class="text-muted">Click for Mac 64-bit download</p>
-                      <a href={mac_dl} download>
+                      <a href={'https://drive.google.com/uc?export=download&id=1YF_GfxpVPUV063ebbAD9_6dZ2Ty-_EQM'} download>
                         <img src={maclogo} alt="Mac Download" width="142" height="142"/>
                       </a>
                   </div>
                   <div class="col-md-3">
                       <h4 class="my-3">Xbox</h4>
                       <p class="text-muted">Click for Xbox Download.</p>
-                      <a href={xbox_dl} download>
+                      <a href={'https://drive.google.com/uc?export=download&id=1J-kmgEwzVGkFmV2Lx39JGQC52gN5Iz6G'} download>
                         <img src={xboxlogo} alt="Xbox Download" width="142" height="142"/>
                       </a>
                   </div>
