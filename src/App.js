@@ -22,7 +22,8 @@ import trial_and_error from './assets/img/trial-and-error.gif';
 //download files
 import windows_dl from './assets/downloads/windows-build.zip';
 import mac_dl from './assets/downloads/mac-build.zip';
-import xbox_dl from './assets/downloads/xbox-build.zip';
+//'./assets/downloads/xbox-build.zip';
+import xbox_dl from './assets/downloads/windows-build.zip';
 import game_dev_guide from './assets/downloads/Team_4_GDG_Year_of_the_Raven.pdf'
 
 
