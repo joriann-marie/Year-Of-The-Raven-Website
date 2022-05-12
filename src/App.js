@@ -65,21 +65,21 @@ function App() {
                   <div class="col-md-3">
                       <h4 class="my-3">Windows</h4>
                       <p class="text-muted">Click for Windows 64-bit Download.</p>
-                      <a href={'https://drive.google.com/uc?export=download&id=11wsR1LKaqvJFK9zWeaPQ0TGZCFm5X_jv'} download>
+                      <a href={'https://drive.google.com/uc?export=download&id=1DcTjD2pHpr-Jr75xi-Y_cb69WHLIpkSQ'} download>
                         <img src={windowslogo} alt="PC Download" width="142" height="142"/>
                       </a>
                   </div>
                   <div class="col-md-3">
                       <h4 class="my-3">Mac</h4>
                       <p class="text-muted">Click for Mac 64-bit download</p>
-                      <a href={'https://drive.google.com/uc?export=download&id=1YF_GfxpVPUV063ebbAD9_6dZ2Ty-_EQM'} download>
+                      <a href={'https://drive.google.com/uc?export=download&id=1EQ1cu5aC99ijipu4KkxstY5RpIBXN5vX'} download>
                         <img src={maclogo} alt="Mac Download" width="142" height="142"/>
                       </a>
                   </div>
                   <div class="col-md-3">
                       <h4 class="my-3">Xbox</h4>
                       <p class="text-muted">Click for Xbox Download.</p>
-                      <a href={'https://drive.google.com/uc?export=download&id=1J-kmgEwzVGkFmV2Lx39JGQC52gN5Iz6G'} download>
+                      <a href={'https://drive.google.com/uc?export=download&id=1DcTjD2pHpr-Jr75xi-Y_cb69WHLIpkSQ'} download>
                         <img src={xboxlogo} alt="Xbox Download" width="142" height="142"/>
                       </a>
                   </div>

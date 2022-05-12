@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/assets/downloads/mac-build.zip
+src/assets/downloads/windows-build.zip
+*.zip
